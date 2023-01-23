@@ -159,12 +159,15 @@ aside{
     height: 270px;
     border-radius: 24px;
 }
-.ban{                                       /*  banner */
+.ban{   
+    display: flex;    
+    align-items: center;            
+    justify-content: center;                    /*  banner */
     border-radius: 15px;
     height: 100px;
-    width: 80%;
-    margin-left: 7rem;
-    z-index: 100;
+    width: 70%;
+   /* margin-left: 7rem;*/
+    z-index: 30;
 }
 .te1{
     color: white;
